@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using LabHelloMvc.Models;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LabHelloMvc.Controllers
@@ -13,9 +14,16 @@ namespace LabHelloMvc.Controllers
             _logger = logger;
         }
 
+
         public IActionResult Index()
         {
-            return View();
+            Person person = new Person();
+            person.PersonId = 1;    
+            person.FirstName = "Yao";
+            person.LastName = "Zhang";
+
+
+            return View(person);
         }
 
         public IActionResult Privacy()

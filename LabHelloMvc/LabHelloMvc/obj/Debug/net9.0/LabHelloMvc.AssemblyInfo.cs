@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LabHelloMvc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5765a4cefb9fb9f3abbc6cb7cfb5c2bfe77e5c0f")]
 [assembly: System.Reflection.AssemblyProductAttribute("LabHelloMvc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LabHelloMvc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
